@@ -37,7 +37,5 @@ func main(){
     //fmt.Printf("%v\n", tax)
     total_cost = meal_cost + tip + tax
 
-    fmt.Print("The total meal cost is ")
-    fmt.Printf("%d", round(total_cost))
-    fmt.Print(" dollars.")
+    fmt.Printf("The total meal cost is %d dollars.", round(total_cost))
 }
