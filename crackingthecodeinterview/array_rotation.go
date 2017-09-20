@@ -26,7 +26,7 @@ func main() {
     fmt.Scan(&num_rotations)
 
     reader := bufio.NewReader(os.Stdin)
-	  arr_elements, _ := reader.ReadString('\n')
+    arr_elements, _ := reader.ReadString('\n')
 
     var arr_to_rotate = strings.Split(arr_elements, " ")
 
